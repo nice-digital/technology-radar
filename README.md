@@ -25,8 +25,11 @@ Items should not be added speculatively - there should be a plan for their use a
 
 ## Sections
 [Infrastructure](/infrastructure.md)
-[Front end](/frontend.md)
+
+[Frontend](/frontend.md)
+
 [Backend](/backend.md)
+
 [Databases](/databases.md)
 
 
