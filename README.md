@@ -32,6 +32,8 @@ Items should not be added speculatively - there should be a plan for their use a
 
 [Databases](/databases.md)
 
+[Techniques](/techniques.md)
+
 
 
 
