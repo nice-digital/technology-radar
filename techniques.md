@@ -18,7 +18,7 @@
 To reduce the likelyhood of diagrams drifting from implementation, we could explore storing diagrams in version control too. There are mature C4-compatible [tools](https://structurizr.com/help/express) to help with this and save diagrams as JSON/YAML files. 
 
 ### Threat modelling during development
-Threat modelling is a risk-based approach to designing secure systems. It is based on identifying threats in order to develop mitigations to them. With cyber security risk increasing we need effective ways to build security into software before penetration testing is undertaken.  We could test out a [simple approach](https://martinfowler.com/articles/agile-threat-modelling.html).
+Threat modelling is a risk-based approach to designing secure systems. It is based on identifying threats in order to develop mitigations to them. With cyber security risk increasing we need effective ways to build security into software before penetration testing is undertaken.  We could test out a whole team, incremental approach to [simple threat modelling](https://martinfowler.com/articles/agile-threat-modelling.html) in a way that fits in with our incremental development processes.
 
 ## Hold
 
