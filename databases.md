@@ -1,6 +1,6 @@
 # Databases
 
-> **Adopt** - The default choice when selecting technologies
+> **Adopt** - The default choice when selecting technologies, currently in use in production
 >
 > **Assess**  - Technologies that we believe may be valuable, and are currently being assessed to understand their value and impact.
 >
