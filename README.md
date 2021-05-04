@@ -12,16 +12,19 @@ The "hold" category is for technologies that we want to specifically warn agains
 ## How do things get added or changed?
 If new development is starting, its proposed tech stack and architecture should be bought to the architecture forum for discussion. If any new technologies are proposed and agreed, they will be added to the adopt section.
 
-We will regularly (quarterly?) review the items on the tech radar to see if anything needs to move since the last review. We may also identify new items to be added.
+We will regularly review the items on the tech radar to see if anything needs to move since the last review. We may also identify new items to be added.
+
+If you would like to propose a technology for addition or for it to move between categories, please raise a pull request with the change and pop it on the architecture forum agenda for discussion.
 
 Items should not be added speculatively - there should be a plan for their use at NICE.
 
 ## Category definitions
-**Hold** - Technologies in hold must no longer be used for new development
 
 **Assess**  - Technologies that we believe may be valuable, and are currently being assessed to understand their value and impact.
 
-**Adopt** - The default choice when selecting technologies
+**Adopt** - The default choice when selecting technologies, currently in use in production
+
+**Hold** - Technologies in hold must no longer be used for new development
 
 ## Sections
 [Infrastructure](/infrastructure.md)
