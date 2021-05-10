@@ -50,6 +50,11 @@ We're not currently using any state management approaches, would be good to asse
 ### Browserstack
 Used for automated cross browser testing with WebdriverIO in at least 1 project.
 
+### NextJS
+We see the need to have universal apps with Server Side Rendering (SSR) and whilst we're using React, NextJS makes sense. It provides SSR as well as static site generation (SSG) and even Incremental Static Regeneration (ISR) out of the box, has great docs, usage and community.
+
+We used SpaServices in .NET Core 2 to provide server side React rendering, but this is out of support in August 2021. So we need an alternative for server-side rendered React apps, which may well be NextJS. Blitz.js is an interesting alternative worth keeping an eye on (it's currently in beta).
+
 
 ## Hold
 
