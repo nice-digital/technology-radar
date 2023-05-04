@@ -9,7 +9,7 @@
 ## Adopt
 
 ### React
-Off-the-shelf tooling, popularity is insane, extremely engaged community, easy to recruit for. Used on External Consultations, Identity Management, CKS, Global Nav, as well as the NICE Design System.
+Off-the-shelf tooling, popularity is insane, extremely engaged community, easy to recruit for. Used on External Consultations, Identity Management, CKS, BNF, Next Web, Global Nav, as well as the NICE Design System.
 
 ### TypeScript
 Microsoft's superset of JavaScript for static typing. TypeScript is "transcompiled" to JavaScript, showing errors at compilation. Used on Identity Management and CKS. The Design System supplies type definitions for TypeScript enabled projects.
@@ -27,7 +27,7 @@ React Testing Library replaces [Enzyme](#enzyme) as our library of choice for te
 Module bundler for JavaScript (and other assets with plugins). Preferred approach to using JS on any new project or to be retrofitted where feasible. Used on CKS, via Gatsby, Global Nav, CKS, niceorg-client, NICE Design System, Comment Collection and probably others.
 
 ### Sass
-CSS Preprocessor. Used on at least NICE Design System, CKS, niceorg-client, Pathways and External Consultations.
+CSS Preprocessor. Used almost everywhere (with modules) apart from a few legacy LESS projects here and there.
 
 ### WebdriverIO
 Front end testing framework. Used in everything. 
@@ -38,8 +38,13 @@ Currently used in a few projects. For when you want .NET to render the HTML. We 
 ### npm
 Currently standard, but can sometimes be a bit of a pain. We decided to use this over yarn.
 
+### NextJS
+We see the need to have universal apps with Server Side Rendering (SSR) and whilst we're using React, NextJS makes sense. It provides SSR as well as static site generation (SSG) and even Incremental Static Regeneration (ISR) out of the box, has great docs, usage and community.
+
+We used SpaServices in .NET Core 2 to provide server side React rendering, but this is out of support in August 2021. So we need an alternative for server-side rendered React apps, which may well be NextJS.
+
 ### Gatsby
-CKS uses Gatsby. It provides a great developer experience, is performant, accessible and good for SEO. It has great documentation and large community. Usage of React and TypeScript in tandem with Jest and React Testing Library makes use of the Design System components seemless.
+CKS and BNF both use Gatsby. It provides a great developer experience, is performant, accessible and good for SEO. It has great documentation and large community. Usage of React and TypeScript in tandem with Jest and React Testing Library makes use of the Design System components seemless.
 
 
 ## Assess
@@ -49,11 +54,6 @@ We're not currently using any state management approaches, would be good to asse
 
 ### Browserstack
 Used for automated cross browser testing with WebdriverIO in at least 1 project.
-
-### NextJS
-We see the need to have universal apps with Server Side Rendering (SSR) and whilst we're using React, NextJS makes sense. It provides SSR as well as static site generation (SSG) and even Incremental Static Regeneration (ISR) out of the box, has great docs, usage and community.
-
-We used SpaServices in .NET Core 2 to provide server side React rendering, but this is out of support in August 2021. So we need an alternative for server-side rendered React apps, which may well be NextJS. Blitz.js is an interesting alternative worth keeping an eye on (it's currently in beta).
 
 
 ## Hold
